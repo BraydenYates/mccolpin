@@ -1,4 +1,3 @@
-
 #IMPORTS
 
 import sys, time
@@ -10,7 +9,7 @@ if p == "1":
 
   #DOING SHORT TERM TERMINAL BASE
   q = raw_input()
-  if q == "2":
+  if q == "1":
     print("My passion is coding")
     #THIS LOGICALLY WAITS 3 SECONDS...
     time.sleep(2)
@@ -24,8 +23,16 @@ if p == "1":
     print("How does this align with physics?")
     time.sleep(2)
     #CLEARS SCREEN
-    print "\n" * 80
-    
+    print "\n" * 42
+    print("                                                                  How this aligns with physics")
+    #17 TABS FOR CENTER
+    print "\n" * 21
+
+    time.sleep(5)
+    print "\n" * 42
+    print("                                                                 ACCELERATION")
+    print "\n" * 21
+
     #PROGRAM NUMBER 2 - TO BE ADDED
 if p == "2":
   print("There is no code here except this, so nothing will happen... Except this...")
