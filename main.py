@@ -30,7 +30,7 @@ if p == "1":
 
     time.sleep(5)
     print "\n" * 42
-    print("                                                                 ACCELERATION")
+    print("                                                                   ACCELERATION")
     print "\n" * 21
 
     #PROGRAM NUMBER 2 - TO BE ADDED
