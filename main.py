@@ -55,6 +55,9 @@ def cite():
     var.set("Stanbrough, . Momentum of an elephant. 2013.\n Graphic. http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htmWeb. 20 Nov 2013. <http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm>.") 
 
 
+def netforce():
+    var.set("Net F0rce \n \n \n \n \n \n")
+
 #Acceleration Button!
 accel = Button(root, text='Acceleration', command=lambda: acceleration)
 accel.pack()
