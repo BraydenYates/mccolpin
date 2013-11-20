@@ -10,6 +10,7 @@ photo = PhotoImage(file="accel.gif")
 img = Label(root, image=photo)
 img.photo = photo
 
+#http://www.batesville.k12.in.us/physics/phynet/mechanics/momentum/Images/elephant_momentum.gif - Link for image, to upload.
 phototwo = PhotoImage(file:"elephant_momentum.gif")
 imgtwo = Label(root, image=phototwo)
 imgtwo.photo = imgtwo.phototwo
