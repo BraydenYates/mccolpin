@@ -26,7 +26,8 @@ var.set("My passion is coding. Someday, I'd love to get a job developing softwar
 
 #Functions 
 def acceleration():
-    var.set("Acceleration \n \n \n \n \n \n Acceleration is defined as: \n 'the increase in the rate or speed of something. \n How could this be used in code? \n \n \n'")
+    var.set("Acceleration \n \n \n \n \n \n Acceleration is defined as: \n 'the increase in the rate or speed of something.' \n How could this be used in code? \n \n \n")
+    var.set("\n \n \n Acceleration can be used in coding during game development. In game development, things may need to change their speed/velocity. ")
     img.pack()
     var.set(" \n Image from https://share.ehs.uen.org/node/7931 \n \n \n ")
 
@@ -37,7 +38,11 @@ def newton():
 
 def moment():
     var.set("Momentum \n \n \n \n \n \n")
-    var.set("Momentum  is the movement of a mass.")
+    var.set("Momentum  is the movement of a mass. How could momentum be used in coding?\n \n \n \n ")
+    var.set("In coding, momentum can be used whenever an object moves. \n")
+    var.set("Most games have something that you move away from, your movement and the other gameobject's movement use \n")
+    var.set("momentum in a virtual enviornment.")
+    
     imgtwo.pack()
     var.set("\n \n \n \n \n \n Image from: \n http://www.batesville.k12.in.us/physics/phynet/mechanics/momentum/Images/elephant_momentum.gif")
     
