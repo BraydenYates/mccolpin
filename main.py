@@ -1,4 +1,3 @@
-
 from Tkinter import *
 
 root = Tk()
@@ -25,7 +24,7 @@ var.set("My passion is coding. Someday, I'd love to get a job developing softwar
 def acceleration():
     var.set("Acceleration \n \n \n \n \n \n Acceleration is defined as: \n 'the increase in the rate or speed of something. \n How could this be used in code? \n \n \n'")
     img.pack()
-
+    var.set("Image from https://share.ehs.uen.org/node/7931")
 
 def newton():
   var.set("Newton's Laws \n \n \n")
