@@ -46,6 +46,12 @@ def moment():
     imgtwo.pack()
     var.set("\n \n \n \n \n \n Image from: \n http://www.batesville.k12.in.us/physics/phynet/mechanics/momentum/Images/elephant_momentum.gif")
     
+    
+    
+    
+def cite():
+    var.set ("Sources \n \n \n \n \n \n")
+    var.set ("Acceleration Image: \n https://share.ehs.uen.org/node/7931")
 #Acceleration Button!
 accel = Button(root, text='Acceleration', command=lambda: acceleration)
 accel.pack()
