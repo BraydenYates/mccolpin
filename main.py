@@ -42,13 +42,12 @@ def moment():
     var.set("In coding, momentum can be used whenever an object moves. \n")
     var.set("Most games have something that you move away from, your movement and the other gameobject's movement use \n")
     var.set("momentum in a virtual enviornment.")
-    
     imgtwo.pack()
     var.set("\n \n \n \n \n \n Image from: \n http://www.batesville.k12.in.us/physics/phynet/mechanics/momentum/Images/elephant_momentum.gif")
     
     
     
-    
+
 def cite():
     var.set ("Sources \n \n \n \n \n \n")
     var.set ("Acceleration Image: \n https://share.ehs.uen.org/node/7931")
@@ -57,7 +56,7 @@ def cite():
 
 def netforce():
     var.set("Net F0rce \n \n \n \n \n \n")
-
+    var.set("")
 #Acceleration Button!
 accel = Button(root, text='Acceleration', command=lambda: acceleration)
 accel.pack()
