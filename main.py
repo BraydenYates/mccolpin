@@ -25,8 +25,8 @@ def acceleration():
     var.set("Acceleration \n \n \n \n \n \n Acceleration is defined as: \n 'the increase in the rate or speed of something. \n How could this be used in code? \n \n \n'")
 
 
-b = Button(root, text="Acceleration", command=acceleration)
-b.pack()
+b1 = Button(root, text="Acceleration", command=acceleration)
+b1.pack()
 
 
 label.pack()
