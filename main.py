@@ -10,6 +10,9 @@ photo = PhotoImage(file="accel.gif")
 img = Label(root, image=photo)
 img.photo = photo
 
+phototwo = PhotoImage(file:"elephant_momentum.gif")
+imgtwo = Label(root, image=phototwo)
+imgtwo.photo = imgtwo.phototwo
 
 
 
@@ -31,6 +34,12 @@ def newton():
     var.set("")
     
 
+def moment():
+    var.set("Momentum \n \n \n \n \n \n")
+    var.set("Momentum  is the movement of a mass.")
+    imgtwo.pack()
+    var.set("\n \n \n \n \n \n Image from: \n http://www.batesville.k12.in.us/physics/phynet/mechanics/momentum/Images/elephant_momentum.gif")
+    
 #Acceleration Button!
 accel = Button(root, text='Acceleration', command=lambda: acceleration)
 accel.pack()
@@ -38,6 +47,8 @@ accel.pack()
 #Newton's Button
 newton = Button(root, text="Newton's Laws", command=newton)
 newton.pack()
+
+moment = Button(root, text='Momentum', command=:lambda: moment)
 
 label.pack()
 root.mainloop()
