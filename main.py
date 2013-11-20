@@ -50,6 +50,7 @@ newton = Button(root, text="Newton's Laws", command=newton)
 newton.pack()
 
 moment = Button(root, text='Momentum', command=:lambda: moment)
+moment.pack()
 
 label.pack()
 root.mainloop()
