@@ -7,4 +7,4 @@ Currently holds:
   *Passion Program (python)
   
 Bugs:
-*Image Stays after you leave a function.
+*Image Stays after you leave a function. [fixed after two overhauls]
