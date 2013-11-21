@@ -215,9 +215,71 @@ class Demo7:
         self.app = Demo8(self.newWindow)
 
 
+class Demo8:
+    def __init__(self, master):
+        self.master = master
+        self.frame = tk.Frame(self.master)
+        
+        two = tk.Label(master, text="Newton's 1st Law \n \n \n Newton's First Law states that: \n 'an object at rest tends to stay at rest, while an object in motion tends to stay in motion. \n' In computing, this law can be shown by the fan in your PC. \n The fan does not move unless it is given energy to make it move. If there is no energy to power the fan, \n it will stop moving due to an unbalanced force (friction). \n If you were in an environment in which there was no gravity or friction, your fan would continue to move forever.  ")
+        
+        two.pack()
+        
+        self.master.title("Newton's 2nd Law")
+        #http://teachertech.rice.edu/Participants/louviere/Newton/law1.html
+        phototwo = PhotoImage(file="first.gif")
 
+        three = tk.Label(master, text="Stanbrough, . Momentum of an elephant. 2013.\n Graphic. http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm \n Web. 20 Nov 2013. <http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm>.")
+        three.pack()
+        
+        imgtwo = Label(master, image=phototwo)
+        imgtwo.photo = phototwo
 
+        imgtwo.pack()
+        
+        self.quitButton = tk.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
+        self.quitButton.pack()
+        cont = tk.Button(self.frame, text = 'Continue', command = self.new_window)
+        cont.pack()
+        self.frame.pack()
+    def close_windows(self):
+        self.master.destroy()
 
+    def new_window(self):
+        self.newWindow = tk.Toplevel(self.master)
+        self.app = Demo9(self.newWindow)
+
+class Demo9:
+    def __init__(self, master):
+        self.master = master
+        self.frame = tk.Frame(self.master)
+        
+        two = tk.Label(master, text="Newton's 3rd Law \n \n \n Newton's First Law states that: \n 'an object at rest tends to stay at rest, while an object in motion tends to stay in motion. \n' In computing, this law can be shown by the fan in your PC. \n The fan does not move unless it is given energy to make it move. If there is no energy to power the fan, \n it will stop moving due to an unbalanced force (friction). \n If you were in an environment in which there was no gravity or friction, your fan would continue to move forever.  ")
+        
+        two.pack()
+        
+        self.master.title("Newton's First Law")
+        #http://teachertech.rice.edu/Participants/louviere/Newton/law1.html
+        phototwo = PhotoImage(file="first.gif")
+
+        three = tk.Label(master, text="Stanbrough, . Momentum of an elephant. 2013.\n Graphic. http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm \n Web. 20 Nov 2013. <http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm>.")
+        three.pack()
+        
+        imgtwo = Label(master, image=phototwo)
+        imgtwo.photo = phototwo
+
+        imgtwo.pack()
+        
+        self.quitButton = tk.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
+        self.quitButton.pack()
+        cont = tk.Button(self.frame, text = 'Continue', command = self.new_window)
+        cont.pack()
+        self.frame.pack()
+    def close_windows(self):
+        self.master.destroy()
+
+    def new_window(self):
+        self.newWindow = tk.Toplevel(self.master)
+        self.app = Demo10(self.newWindow)
 
 
 
