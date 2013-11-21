@@ -284,21 +284,40 @@ class Demo9:
 
 
 
+class Demo10:
+    def __init__(self, master):
+        self.master = master
+        self.frame = tk.Frame(self.master)
+        
+        two = tk.Label(master, text="Citations")
+        two.pack()
+        
+        self.master.title("Citations")
+        #http://teachertech.rice.edu/Participants/louviere/Newton/law1.html
+        phototwo = PhotoImage(file="first.gif")
+
+        three = tk.Label(master, text="Stanbrough, . Momentum of an elephant. 2013.\n Graphic. http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm \n Web. 20 Nov 2013. <http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm>.")
+        three.pack()
+        
+        imgtwo = Label(master, image=phototwo)
+        imgtwo.photo = phototwo
+
+        imgtwo.pack()
+        
+        self.quitButton = tk.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
+        self.quitButton.pack()
+        cont = tk.Button(self.frame, text = 'Continue', command = self.new_window)
+        cont.pack()
+        self.frame.pack()
+    def close_windows(self):
+        self.master.destroy()
+
+    def new_window(self):
+        self.newWindow = tk.Toplevel(self.master)
+        self.app = Demo1(self.newWindow)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# DO NOT TOUCH
 
 def main(): 
     root = tk.Tk()
