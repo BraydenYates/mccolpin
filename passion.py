@@ -220,7 +220,7 @@ class Demo8:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Newton's 2nd Law \n \n \n Newton's First Law states that: \n 'an object at rest tends to stay at rest, while an object in motion tends to stay in motion. \n' In computing, this law can be shown by the fan in your PC. \n The fan does not move unless it is given energy to make it move. If there is no energy to power the fan, \n it will stop moving due to an unbalanced force (friction). \n If you were in an environment in which there was no gravity or friction, your fan would continue to move forever.  ")
+        two = tk.Label(master, text="Newton's 2nd Law \n \n \n Newton's Second Law states that: \n 'Acceleration is produced when when a force acts on a mass. \n' In computing, this law can be represented by hardware required to run a program.  \n Some lightweight programs (less mass) can use older, slower hardware (Less force). \n Most modern games (more mass) , however, require \n powerful hardware. (More force) ")
         
         two.pack()
         
