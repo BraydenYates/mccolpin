@@ -253,7 +253,7 @@ class Demo9:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Newton's 3rd Law \n \n \n Newton's First Law states that: \n 'an object at rest tends to stay at rest, while an object in motion tends to stay in motion. \n' In computing, this law can be shown by the fan in your PC. \n The fan does not move unless it is given energy to make it move. If there is no energy to power the fan, \n it will stop moving due to an unbalanced force (friction). \n If you were in an environment in which there was no gravity or friction, your fan would continue to move forever.  ")
+        two = tk.Label(master, text="Newton's 3rd Law \n \n \n Third Law states that: \n 'For every action, there is an equal and opposite reaction. \n ")
         
         two.pack()
         
