@@ -306,15 +306,15 @@ class Demo10:
         
         self.quitButton = tk.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
         self.quitButton.pack()
-        cont = tk.Button(self.frame, text = 'Continue', command = self.new_window)
-        cont.pack()
+        #cont = tk.Button(self.frame, text = 'Continue', command = self.new_window)
+        #cont.pack()
         self.frame.pack()
     def close_windows(self):
         self.master.destroy()
 
-    def new_window(self):
-        self.newWindow = tk.Toplevel(self.master)
-        self.app = Demo1(self.newWindow)
+    #def new_window(self):
+        #self.newWindow = tk.Toplevel(self.master)
+        #self.app = Demo1(self.newWindow)
 
 
 # DO NOT TOUCH
