@@ -253,7 +253,7 @@ class Demo9:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Newton's 3rd Law \n \n \n Third Law states that: \n 'For every action, there is an equal and opposite reaction. \n ")
+        two = tk.Label(master, text="Newton's 3rd Law \n \n \n Third Law states that: \n 'For every action, there is an equal and opposite reaction.' \n This can be relative to coding, whenever you fix a bug, (the action) The bug is solved and 312 more are made for \n you to solve. ")
         
         two.pack()
         
@@ -326,3 +326,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
