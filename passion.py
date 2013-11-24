@@ -24,13 +24,13 @@ class Demo2:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Acceleration \n \n \n ")
+        two = tk.Label(master, text="Acceleration \n \n \n Acceleration is defined as 'the increase in the rate of something. \n' In computing, this can be used in racing games. When a car begins to move, it is accelerating. \n When the car is slowing down, it is accelerating")
         two.pack()
         
         self.master.title("Acceleration")
         
         #https://share.ehs.uen.org/node/7931
-        
+        twocite = tk.Label(master, text="https://share.ehs.uen.org, . Acceleration in Cars. 2013. Photograph. \n https://share.ehs.uen.org/node/7931Web. 23 Nov 2013. \n <http://media.ehs.uen.org/html/PhysicsQ2/Direction_01/acc2.jpg>. "
         photo = PhotoImage(file="accel.gif")
         img = Label(master, image=photo)
         img.photo = photo
