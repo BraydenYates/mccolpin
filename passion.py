@@ -30,7 +30,8 @@ class Demo2:
         self.master.title("Acceleration")
         
         #https://share.ehs.uen.org/node/7931
-        twocite = tk.Label(master, text="https://share.ehs.uen.org, . Acceleration in Cars. 2013. Photograph. \n https://share.ehs.uen.org/node/7931Web. 23 Nov 2013. \n <http://media.ehs.uen.org/html/PhysicsQ2/Direction_01/acc2.jpg>. "
+        cite = tk.Label(master, text="https://share.ehs.uen.org, . Acceleration in Cars. 2013. Photograph. \n https://share.ehs.uen.org/node/7931Web. 23 Nov 2013. \n <http://media.ehs.uen.org/html/PhysicsQ2/Direction_01/acc2.jpg>. ")
+        cite.pack()
         photo = PhotoImage(file="accel.gif")
         img = Label(master, image=photo)
         img.photo = photo
@@ -66,7 +67,9 @@ class Demo3:
         imgtwo.photo = phototwo
 
         imgtwo.pack()
-        
+
+        cite = tk.Label(master, text="Wagon, Joy. Ladybugs and Speed. 1999. Photograph. \n http://www.regentsprep.org/regents/physics/phys01/velocity/default.htm Web. 23 Nov 2013. \n <http://www.regentsprep.org/regents/physics/phys01/velocity/distdisp.gif>.")
+        cite.pack()
         self.quitButton = tk.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
         self.quitButton.pack()
         cont = tk.Button(self.frame, text = 'Continue', command = self.new_window)
@@ -84,7 +87,7 @@ class Demo4:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Momentum \n \n \n  Momentum is 'The quantity of motion of a moving body.' \n In coding, anything that moves has momentum. Most game engines allow you to give other objects mass. \n Mass is required for momentum, so any time anything moves in a game, it has momentum.")
+        two = tk.Label(master, text="Momentum \n \n \n Momentum is 'The quantity of motion of a moving body.' \n In coding, anything that moves has momentum. Most game engines allow you to give other objects mass. \n Mass is required for momentum, so any time anything moves in a game, it has momentum.")
         
         two.pack()
         
@@ -118,7 +121,7 @@ class Demo5:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Potential Energy \n \n \n  ")
+        two = tk.Label(master, text="Potential Energy \n \n \n Potential energy is energy that has the ability to be released, but has not yet been excerted. \n An example of this in coding is when your machine is off. When your machine \n is off, no power is running in it, but you have power stored in a battery that has the ability to be excerted when you \n press the power button. ")
         
         two.pack()
         
@@ -126,7 +129,7 @@ class Demo5:
         #http://static.ddmcdn.com/gif/power-supply5.jpg && http://computer.howstuffworks.com/power-supply.htm
         phototwo = PhotoImage(file="psu.gif")
 
-        three = tk.Label(master, text="Stanbrough, . Momentum of an elephant. 2013.\n Graphic. http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm \n Web. 20 Nov 2013. <http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm>.")
+        three = tk.Label(master, text=" Garry Brown . Power Supply Unit. 2001. \n Photograph. http://computer.howstuffworks.com/power-supply.htmWeb. 23 Nov 2013. \n <http://static.ddmcdn.com/gif/power-supply5.jpg>. ")
         three.pack()
         
         imgtwo = Label(master, image=phototwo)
@@ -186,7 +189,7 @@ class Demo7:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Newton's 1st Law \n \n \n Newton's First Law states that: \n 'an object at rest tends to stay at rest, while an object in motion tends to stay in motion. \n' In computing, this law can be shown by the fan in your PC. \n The fan does not move unless it is given energy to make it move. If there is no energy to power the fan, \n it will stop moving due to an unbalanced force (friction). \n If you were in an environment in which there was no gravity or friction, your fan would continue to move forever.  ")
+        two = tk.Label(master, text="Newton's 1st Law \n \n \n Newton's First Law states that: \n 'an object at rest tends to stay at rest, while an object in motion tends to stay in motion. \n' In computing, this law can be shown by the fan in your PC. \n The fan does not move unless it is given energy to make it move. If there is no energy to power the fan, \n it will stop moving due to an unbalanced force (friction). \n If you were in an environment in which there was no gravity or friction, your fan would continue to move forever. ")
         
         two.pack()
         
@@ -220,7 +223,7 @@ class Demo8:
         self.master = master
         self.frame = tk.Frame(self.master)
         
-        two = tk.Label(master, text="Newton's 2nd Law \n \n \n Newton's Second Law states that: \n 'Acceleration is produced when when a force acts on a mass. \n' In computing, this law can be represented by hardware required to run a program.  \n Some lightweight programs (less mass) can use older, slower hardware (Less force). \n Most modern games (more mass) , however, require \n powerful hardware. (More force) ")
+        two = tk.Label(master, text="Newton's 2nd Law \n \n \n Newton's Second Law states that: \n 'Acceleration is produced when when a force acts on a mass. \n' In computing, this law can be represented by hardware required to run a program. \n Some lightweight programs (less mass) can use older, slower hardware (Less force). \n Most modern games (more mass) , however, require \n powerful hardware. (More force) ")
         
         two.pack()
         
@@ -319,11 +322,10 @@ class Demo10:
 
 # DO NOT TOUCH
 
-def main(): 
+def main():
     root = tk.Tk()
     app = Demo1(root)
     root.mainloop()
 
 if __name__ == '__main__':
     main()
-
