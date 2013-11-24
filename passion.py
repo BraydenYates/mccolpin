@@ -259,9 +259,9 @@ class Demo9:
         
         self.master.title("Newton's Third Law")
         #http://teachertech.rice.edu/Participants/louviere/Newton/law1.html
-        phototwo = PhotoImage(file="first.gif")
+        phototwo = PhotoImage(file="third.gif")
 
-        three = tk.Label(master, text="Stanbrough, . Momentum of an elephant. 2013.\n Graphic. http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm \n Web. 20 Nov 2013. <http://www.batesville.k12.in.us/physics/phynet/Mechanics/Momentum/momentum.htm>.")
+        three = tk.Label(master, text="Nasa & LTP, . Third Law of Motion Applied to Boat. \n 2013. Graphic. http://www.allstar.fiu.edu/aero/rocket1.htmWeb. \n 23 Nov 2013. \n <http://www.allstar.fiu.edu/aero/images/pic007.gif>. ")
         three.pack()
         
         imgtwo = Label(master, image=phototwo)
